@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #414857;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.articleImg{
+    height: 580px;
+    border-radius: 2%;
+    border: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.center-text {
+    text-align: center;
+}
+
+.cajas{
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    text-align: center;
+}
+
+.imagen-reducida{
+    width: 50%; /* Reducir al 50% del ancho original */
+    height: auto; /* Mantener la proporción original de la imagen */
+}
+
+.tarjetas{
+    display: flex;
+    }
+
+.eventos-bg1{
+    background-image: url('../img/60afbd225a0c1.r_d.705-484-0.jpeg');
+    background-size: cover;
+}
+.eventos-bg2{
+    background-image: url('../img/woman-8368830_1280.jpg');
+    background-size: cover;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.iconosRedes {
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+}
+
+.iconosRedes li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.iconosRedes li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto;
+}
+
+.contenedor-imagenes img {
+    width: 35%; /* Ajusta este valor según tus necesidades */
+    margin: 0px;
+}
+
+
+.blog{
+    display: flex;
+}
